@@ -1,3 +1,5 @@
+require 'prime'
+
 def prime?(n)
   if Prime.prime?(n)
      true
